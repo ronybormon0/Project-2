@@ -13,39 +13,38 @@ body {
 
 /* Boiler plate End */
 
-@font-face{
-  font-family: 'a';
+@font-face {
+  font-family: "a";
   src: url(../Media/font/1.ttf);
 }
-@font-face{
-  font-family: '2';
+@font-face {
+  font-family: "2";
   src: url(../Media/font/2.ttf);
 }
-@font-face{
-  font-family: 'a';
+@font-face {
+  font-family: "a";
   src: url(../Media/font/1.ttf);
 }
-#main{
-    position: relative;
-    overflow: hidden;
+#main {
+  position: relative;
+  overflow: hidden;
 }
 
 /* Page 1 Start  */
-#page1{
-    height: 100vh;
-    width: 100vw;
-    background-color: rgb(255, 0, 0);
-    position: relative;
+#page1 {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(255, 0, 0);
+  position: relative;
 }
 
-#page1 video{
+#page1 video {
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
 
-
-#page1 nav{
+#page1 nav {
   height: 7vh;
   width: 100vw;
   background-color: yellow;
@@ -54,27 +53,24 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 0px 30px;
-
 }
 
-
-#page1 nav img{
+#page1 nav img {
   /* margin-top: -2vw; */
   width: 4%;
 }
 
-#right-nav button{
-  background-color: #0940DD;
+#right-nav button {
+  background-color: #0940dd;
   padding: 10px 20px;
   border-radius: 50px;
-  border: 1px solid #0940DD;
+  border: 1px solid #0940dd;
   color: #fff;
   font-family: a;
   font-size: 18px;
 }
 
-
-.buttom-page1{
+.buttom-page1 {
   position: absolute;
   width: 50vw;
   height: 50vh;
@@ -82,8 +78,7 @@ body {
   left: 10%;
 }
 
-
-.buttom-page1 h1{
+.buttom-page1 h1 {
   font-family: a;
   font-size: 5vw;
   font-weight: 100;
@@ -91,11 +86,10 @@ body {
   color: #fff;
 }
 
-.bottom-page1-inner{
-
+.bottom-page1-inner {
 }
 
-.bottom-page1-inner{
+.bottom-page1-inner {
   position: absolute;
   bottom: 0%;
   height: 30%;
@@ -107,28 +101,25 @@ body {
   font-family: a;
 }
 
-
-.bottom-page1-inner button{
+.bottom-page1-inner button {
   font-family: b;
-padding: 10px 30px;
-border: none;
-border-radius: 50px;
-background-color: #fff;
-color: #0940DD;
-font-weight: 600;
-font-size: 16px;
-
+  padding: 10px 30px;
+  border: none;
+  border-radius: 50px;
+  background-color: #fff;
+  color: #0940dd;
+  font-weight: 600;
+  font-size: 16px;
 }
 
-
-.bottom-page1-inner h4{
+.bottom-page1-inner h4 {
   font-size: 1vw;
   font-weight: 100;
 
   color: #ffffff;
 }
 
-#page2{
+#page2 {
   font-family: a;
   display: flex;
   flex-direction: column;
@@ -141,22 +132,15 @@ font-size: 16px;
   gap: 25px;
   padding: 0% 10%;
   color: #f1f1f1;
-
 }
 
-#page2 h2{
+#page2 h2 {
   font-weight: 100;
-
-  
 }
 
-
-#page2 h1{
+#page2 h1 {
   font-size: 3vw;
   font-weight: 700;
   width: 80%;
   color: #dadada69;
-
-
 }
-
