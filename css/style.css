@@ -1,0 +1,28 @@
+/* Boiler plate Start */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+/* Boiler plate End */
+
+
+#main{
+    position: relative;
+    overflow: hidden;
+}
+
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(255, 0, 0);
+    position: relative;
+}
+
