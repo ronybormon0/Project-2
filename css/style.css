@@ -34,7 +34,7 @@ body {
 #page1 {
   height: 100vh;
   width: 100vw;
-  background-color: rgb(255, 0, 0);
+  background-color:#0433cf;
   position: relative;
 }
 
@@ -47,7 +47,7 @@ body {
 #page1 nav {
   height: 7vh;
   width: 100vw;
-  background-color: yellow;
+  background-color: #0433cf00;
   position: absolute;
   display: flex;
   align-items: center;
@@ -64,7 +64,7 @@ body {
   background-color: #0940dd;
   padding: 10px 20px;
   border-radius: 50px;
-  border: 1px solid #0940dd;
+  border: 1px solid #ffffff;
   color: #fff;
   font-family: a;
   font-size: 18px;
